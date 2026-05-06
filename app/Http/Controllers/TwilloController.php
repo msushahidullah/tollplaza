@@ -29,14 +29,14 @@ class TwilloController extends Controller
 
     public function whatsapp(){
         
-        $sid    = "ACd55185aa4684799f7e69f4e03db40258"; 
-        $token  = "138e98035110dfd36f583db736b61b4d"; 
+        $sid    = "xxxx"; 
+        $token  = "xxxx"; 
         $twilio = new Client($sid, $token); 
         
         $message = $twilio->messages 
-                        ->create("whatsapp:+917737161477", // to 
+                        ->create("whatsapp:+880xxxx", // to 
                                 array( 
-                                    "from" => "whatsapp:+14155238886",       
+                                    "from" => "whatsapp:+880xxxx",       
                                     "body" => "Wh thik h " 
                                 ) 
                         ); 
