@@ -1,0 +1,538 @@
+<?php return array (
+  'anandsiddharth/laravel-paytm-wallet' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Anand\\LaravelPaytmWallet\\PaytmWalletServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'PaytmWallet' => 'Anand\\LaravelPaytmWallet\\Facades\\PaytmWallet',
+    ),
+  ),
+  'barryvdh/laravel-debugbar' => 
+  array (
+    'aliases' => 
+    array (
+      'Debugbar' => 'Barryvdh\\Debugbar\\Facades\\Debugbar',
+    ),
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\Debugbar\\ServiceProvider',
+    ),
+  ),
+  'barryvdh/laravel-dompdf' => 
+  array (
+    'aliases' => 
+    array (
+      'PDF' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
+      'Pdf' => 'Barryvdh\\DomPDF\\Facade\\Pdf',
+    ),
+    'providers' => 
+    array (
+      0 => 'Barryvdh\\DomPDF\\ServiceProvider',
+    ),
+  ),
+  'berkayk/onesignal-laravel' => 
+  array (
+    'aliases' => 
+    array (
+      'OneSignal' => 'Berkayk\\OneSignal\\OneSignalFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'Berkayk\\OneSignal\\OneSignalServiceProvider',
+    ),
+  ),
+  'cartalyst/stripe-laravel' => 
+  array (
+    'aliases' => 
+    array (
+      'Stripe' => 'Cartalyst\\Stripe\\Laravel\\Facades\\Stripe',
+    ),
+    'providers' => 
+    array (
+      0 => 'Cartalyst\\Stripe\\Laravel\\StripeServiceProvider',
+    ),
+  ),
+  'consoletvs/charts' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'ConsoleTVs\\Charts\\ChartsServiceProvider',
+    ),
+  ),
+  'cyrildewit/eloquent-viewable' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'CyrildeWit\\EloquentViewable\\EloquentViewableServiceProvider',
+    ),
+  ),
+  'devmarketer/easynav' => 
+  array (
+    'aliases' => 
+    array (
+      'Nav' => 'DevMarketer\\EasyNav\\EasyNavFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'DevMarketer\\EasyNav\\EasyNavServiceProvider',
+    ),
+  ),
+  'imanghafoori/laravel-microscope' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Imanghafoori\\LaravelMicroscope\\LaravelMicroscopeServiceProvider',
+    ),
+  ),
+  'imanghafoori/smart-realtime-facades' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Imanghafoori\\RealtimeFacades\\SmartRealTimeFacadesProvider',
+    ),
+  ),
+  'intervention/image' => 
+  array (
+    'aliases' => 
+    array (
+      'Image' => 'Intervention\\Image\\Facades\\Image',
+    ),
+    'providers' => 
+    array (
+      0 => 'Intervention\\Image\\ImageServiceProvider',
+    ),
+  ),
+  'itskodinger/midia' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Itskodinger\\Midia\\MidiaServiceProvider',
+    ),
+  ),
+  'jackiedo/dotenv-editor' => 
+  array (
+    'aliases' => 
+    array (
+      'DotenvEditor' => 'Jackiedo\\DotenvEditor\\Facades\\DotenvEditor',
+    ),
+    'providers' => 
+    array (
+      0 => 'Jackiedo\\DotenvEditor\\DotenvEditorServiceProvider',
+    ),
+  ),
+  'jackiedo/timezonelist' => 
+  array (
+    'aliases' => 
+    array (
+      'Timezonelist' => 'Jackiedo\\Timezonelist\\Facades\\Timezonelist',
+    ),
+    'providers' => 
+    array (
+      0 => 'Jackiedo\\Timezonelist\\TimezonelistServiceProvider',
+    ),
+  ),
+  'joedixon/laravel-translation' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'JoeDixon\\Translation\\TranslationServiceProvider',
+      1 => 'JoeDixon\\Translation\\TranslationBindingsServiceProvider',
+    ),
+  ),
+  'jorenvanhocht/laravel-share' => 
+  array (
+    'aliases' => 
+    array (
+      'Share' => 'Jorenvh\\Share\\ShareFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'Jorenvh\\Share\\Providers\\ShareServiceProvider',
+    ),
+  ),
+  'kingflamez/laravelrave' => 
+  array (
+    'aliases' => 
+    array (
+      'Rave' => 'KingFlamez\\Rave\\Facades\\Rave',
+    ),
+    'providers' => 
+    array (
+      0 => 'KingFlamez\\Rave\\RaveServiceProvider',
+    ),
+  ),
+  'laracasts/flash' => 
+  array (
+    'aliases' => 
+    array (
+      'Flash' => 'Laracasts\\Flash\\Flash',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laracasts\\Flash\\FlashServiceProvider',
+    ),
+  ),
+  'laravel-notification-channels/onesignal' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'NotificationChannels\\OneSignal\\OneSignalServiceProvider',
+    ),
+  ),
+  'laravel/legacy-factories' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Illuminate\\Database\\Eloquent\\LegacyFactoryServiceProvider',
+    ),
+  ),
+  'laravel/passport' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Passport\\PassportServiceProvider',
+    ),
+  ),
+  'laravel/socialite' => 
+  array (
+    'aliases' => 
+    array (
+      'Socialite' => 'Laravel\\Socialite\\Facades\\Socialite',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laravel\\Socialite\\SocialiteServiceProvider',
+    ),
+  ),
+  'laravel/tinker' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Tinker\\TinkerServiceProvider',
+    ),
+  ),
+  'laravel/ui' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Laravel\\Ui\\UiServiceProvider',
+    ),
+  ),
+  'laravolt/avatar' => 
+  array (
+    'aliases' => 
+    array (
+      'Avatar' => 'Laravolt\\Avatar\\Facade',
+    ),
+    'providers' => 
+    array (
+      0 => 'Laravolt\\Avatar\\ServiceProvider',
+    ),
+  ),
+  'mews/purifier' => 
+  array (
+    'aliases' => 
+    array (
+      'Purifier' => 'Mews\\Purifier\\Facades\\Purifier',
+    ),
+    'providers' => 
+    array (
+      0 => 'Mews\\Purifier\\PurifierServiceProvider',
+    ),
+  ),
+  'mollie/laravel-mollie' => 
+  array (
+    'aliases' => 
+    array (
+      'Mollie' => 'Mollie\\Laravel\\Facades\\Mollie',
+    ),
+    'providers' => 
+    array (
+      0 => 'Mollie\\Laravel\\MollieServiceProvider',
+    ),
+  ),
+  'mtownsend/read-time' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Mtownsend\\ReadTime\\Providers\\ReadTimeServiceProvider',
+    ),
+  ),
+  'nesbot/carbon' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Carbon\\Laravel\\ServiceProvider',
+    ),
+  ),
+  'nunomaduro/termwind' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Termwind\\Laravel\\TermwindServiceProvider',
+    ),
+  ),
+  'nwidart/laravel-modules' => 
+  array (
+    'aliases' => 
+    array (
+      'Module' => 'Nwidart\\Modules\\Facades\\Module',
+    ),
+    'providers' => 
+    array (
+      0 => 'Nwidart\\Modules\\LaravelModulesServiceProvider',
+    ),
+  ),
+  'obydul/laraskrill' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Obydul\\LaraSkrill\\LaraSkrillServiceProvider',
+    ),
+  ),
+  'orangehill/iseed' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Orangehill\\Iseed\\IseedServiceProvider',
+    ),
+  ),
+  'owen-it/laravel-auditing' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'OwenIt\\Auditing\\AuditingServiceProvider',
+    ),
+  ),
+  'php-flasher/flasher-laravel' => 
+  array (
+    'aliases' => 
+    array (
+      'Flasher' => 'Flasher\\Laravel\\Facade\\Flasher',
+    ),
+    'providers' => 
+    array (
+      0 => 'Flasher\\Laravel\\FlasherServiceProvider',
+    ),
+  ),
+  'php-flasher/flasher-toastr-laravel' => 
+  array (
+    'aliases' => 
+    array (
+      'Toastr' => 'Flasher\\Toastr\\Laravel\\Facade\\Toastr',
+    ),
+    'providers' => 
+    array (
+      0 => 'Flasher\\Toastr\\Laravel\\FlasherToastrServiceProvider',
+    ),
+  ),
+  'pragmarx/google2fa-laravel' => 
+  array (
+    'aliases' => 
+    array (
+      'Google2FA' => 'PragmaRX\\Google2FALaravel\\Facade',
+    ),
+    'providers' => 
+    array (
+      0 => 'PragmaRX\\Google2FALaravel\\ServiceProvider',
+    ),
+  ),
+  'rap2hpoutre/fast-excel' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Rap2hpoutre\\FastExcel\\Providers\\FastExcelServiceProvider',
+    ),
+  ),
+  'realrashid/sweet-alert' => 
+  array (
+    'aliases' => 
+    array (
+      'Alert' => 'RealRashid\\SweetAlert\\Facades\\Alert',
+    ),
+    'providers' => 
+    array (
+      0 => 'RealRashid\\SweetAlert\\SweetAlertServiceProvider',
+    ),
+  ),
+  'revolution/socialite-amazon' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Revolution\\Socialite\\Amazon\\AmazonServiceProvider',
+    ),
+  ),
+  'shipu/php-aamarpay-payment' => 
+  array (
+    'aliases' => 
+    array (
+      'Aamarpay' => 'Shipu\\Aamarpay\\Facades\\Aamarpay',
+    ),
+    'providers' => 
+    array (
+      0 => 'Shipu\\Aamarpay\\AamarpayServiceProvider',
+    ),
+  ),
+  'silviolleite/laravelpwa' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'LaravelPWA\\Providers\\LaravelPWAServiceProvider',
+    ),
+  ),
+  'simplesoftwareio/simple-qrcode' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'SimpleSoftwareIO\\QrCode\\QrCodeServiceProvider',
+    ),
+    'aliases' => 
+    array (
+      'QrCode' => 'SimpleSoftwareIO\\QrCode\\Facades\\QrCode',
+    ),
+  ),
+  'spatie/laravel-analytics' => 
+  array (
+    'aliases' => 
+    array (
+      'Analytics' => 'Spatie\\Analytics\\Facades\\Analytics',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\Analytics\\AnalyticsServiceProvider',
+    ),
+  ),
+  'spatie/laravel-backup' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Backup\\BackupServiceProvider',
+    ),
+  ),
+  'spatie/laravel-cookie-consent' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\CookieConsent\\CookieConsentServiceProvider',
+    ),
+  ),
+  'spatie/laravel-googletagmanager' => 
+  array (
+    'aliases' => 
+    array (
+      'GoogleTagManager' => 'Spatie\\GoogleTagManager\\GoogleTagManagerFacade',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\GoogleTagManager\\GoogleTagManagerServiceProvider',
+    ),
+  ),
+  'spatie/laravel-newsletter' => 
+  array (
+    'aliases' => 
+    array (
+      'Newsletter' => 'Spatie\\Newsletter\\Facades\\Newsletter',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\Newsletter\\NewsletterServiceProvider',
+    ),
+  ),
+  'spatie/laravel-permission' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Permission\\PermissionServiceProvider',
+    ),
+  ),
+  'spatie/laravel-signal-aware-command' => 
+  array (
+    'aliases' => 
+    array (
+      'Signal' => 'Spatie\\SignalAwareCommand\\Facades\\Signal',
+    ),
+    'providers' => 
+    array (
+      0 => 'Spatie\\SignalAwareCommand\\SignalAwareCommandServiceProvider',
+    ),
+  ),
+  'spatie/laravel-sitemap' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Sitemap\\SitemapServiceProvider',
+    ),
+  ),
+  'spatie/laravel-translatable' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Spatie\\Translatable\\TranslatableServiceProvider',
+    ),
+  ),
+  'srmklive/paypal' => 
+  array (
+    'aliases' => 
+    array (
+      'PayPal' => 'Srmklive\\PayPal\\Facades\\PayPal',
+    ),
+    'providers' => 
+    array (
+      0 => 'Srmklive\\PayPal\\Providers\\PayPalServiceProvider',
+    ),
+  ),
+  'tohidplus/laravel-vue-translation' => 
+  array (
+    'providers' => 
+    array (
+      0 => 'Tohidplus\\Translation\\TranslationServiceProvider',
+    ),
+  ),
+  'torann/currency' => 
+  array (
+    'aliases' => 
+    array (
+      'Currency' => 'Torann\\Currency\\Facades\\Currency',
+    ),
+    'providers' => 
+    array (
+      0 => 'Torann\\Currency\\CurrencyServiceProvider',
+    ),
+  ),
+  'torann/geoip' => 
+  array (
+    'aliases' => 
+    array (
+      'GeoIP' => 'Torann\\GeoIP\\Facades\\GeoIP',
+    ),
+    'providers' => 
+    array (
+      0 => 'Torann\\GeoIP\\GeoIPServiceProvider',
+    ),
+  ),
+  'unicodeveloper/laravel-paystack' => 
+  array (
+    'aliases' => 
+    array (
+      'Paystack' => 'Unicodeveloper\\Paystack\\Facades\\Paystack',
+    ),
+    'providers' => 
+    array (
+      0 => 'Unicodeveloper\\Paystack\\PaystackServiceProvider',
+    ),
+  ),
+  'yajra/laravel-datatables-oracle' => 
+  array (
+    'aliases' => 
+    array (
+      'DataTables' => 'Yajra\\DataTables\\Facades\\DataTables',
+    ),
+    'providers' => 
+    array (
+      0 => 'Yajra\\DataTables\\DataTablesServiceProvider',
+    ),
+  ),
+);

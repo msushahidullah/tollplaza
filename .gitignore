@@ -15,7 +15,11 @@ public/hot
 public_html/storage
 public_html/hot
 
+<<<<<<< HEAD
 public/images
+=======
+#public/images
+>>>>>>> 77b2f1e (Initial Commit)
 storage
 storage/*.key
 .env
