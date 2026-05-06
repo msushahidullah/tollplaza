@@ -29,8 +29,8 @@ class TwilloController extends Controller
 
     public function whatsapp(){
         
-        $sid    = "xxxx"; 
-        $token  = "xxxx"; 
+        $sid    = ""; 
+        $token  = ""; 
         $twilio = new Client($sid, $token); 
         
         $message = $twilio->messages 
